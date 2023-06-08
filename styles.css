@@ -1,0 +1,45 @@
+:root {
+    --color-primary: rgba(135, 208, 213, 0.586);
+}
+
+
+* {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#tabla_movimientos {
+    border-spacing: 10px;
+}
+
+#tabla_movimientos thead {
+    background-color: var(--color-primary);
+}
+
+#tabla_movimientos tbody {
+    background-color: var(--color-primary);
+    text-align: center;
+}
+
+#tabla_movimientos thead tr th {
+    padding: 15px 40px;
+}
+
+#tabla_movimientos tbody tr td {
+    padding: 10px 40px;
+}
