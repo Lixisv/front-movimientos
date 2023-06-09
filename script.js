@@ -1,4 +1,4 @@
-const URL_API = "http://localhost:3000/movimientos";
+const URL_API = "https://back-movements.onrender.com/movimientos";
 const tbody_movimientos = document.getElementById("tbody_movimientos");
 
 const getMovimientos = async () => {
